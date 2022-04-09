@@ -1,11 +1,12 @@
 .header {
   width: 100%;
-  /* background: var(--black-color); */
+  background: var(--black-color);
   background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
-  /* z-index: var(--z-fixed); */
+  z-index: var(--z-fixed);
+  margin-bottom: 3rem;
 }
 .nav {
   height: calc(var(--header-height) + 2rem);

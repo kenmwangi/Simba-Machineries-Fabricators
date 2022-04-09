@@ -1,0 +1,19 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: teal;
+  /* background-color: #333; */
+  opacity: 0.8;
+  color: #fff;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
