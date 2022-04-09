@@ -12,6 +12,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
         <title>{title}</title>
       </Head>
+
       <div className="container">{children}</div>
 
       <style jsx>{`
