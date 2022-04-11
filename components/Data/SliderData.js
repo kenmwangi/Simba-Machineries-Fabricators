@@ -9,9 +9,9 @@ export const sliderItems = [
     img: "https://res.cloudinary.com/kenmwangi/image/upload/v1649497510/Slider%20Items/Products.jpg",
     desc: "Affordable Farm Machineries & Fabrication Services",
   },
-  {
-    id: 3,
-    img: "https://res.cloudinary.com/kenmwangi/image/upload/v1649497462/Slider%20Items/Generators.jpg",
-    desc: "Well-Stocked Latest Machineries & Equipments",
-  },
+  // {
+  //   id: 3,
+  //   img: "https://res.cloudinary.com/kenmwangi/image/upload/v1649497462/Slider%20Items/Generators.jpg",
+  //   desc: "Well-Stocked Latest Machineries & Equipments",
+  // },
 ];

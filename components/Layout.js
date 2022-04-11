@@ -17,9 +17,9 @@ export default function Layout({ title, keywords, description, children }) {
 
       <style jsx>{`
         .container {
-          max-width: 100vw;
-          margin-left: 16rem;
-          margin-right: 16rem;
+          max-width: 968px;
+          margin-left: auto;
+          margin-right: auto;
         }
       `}</style>
     </div>

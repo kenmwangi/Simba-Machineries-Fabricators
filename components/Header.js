@@ -5,7 +5,6 @@ import { BiMenu, BiX } from "react-icons/bi";
 import { useOnClickOutside } from "../hooks/useOnClickOutside";
 // Style
 import style from "../styles/Header.module.css";
-import Banner from "./Banner";
 import { HeaderData } from "./Data/HeaderData";
 
 function Header() {
@@ -23,7 +22,6 @@ function Header() {
   return (
     <>
       <header className={style.header}>
-        <Banner />
         <div className="container">
           <nav className={style.nav}>
             <Link href="/">
