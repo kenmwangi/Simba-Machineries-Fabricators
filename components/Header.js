@@ -56,7 +56,7 @@ function Header() {
                     onClick={closeNavLink}
                     className={style.call__action}
                   >
-                    Get a Quote
+                    Request a Quote
                   </button>
                 </Link>
               </ul>
