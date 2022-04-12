@@ -8,6 +8,7 @@
   z-index: var(--z-fixed);
   margin-bottom: 3rem;
   padding: 1rem 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .nav {
   height: calc(var(--header-height) + 2rem);
