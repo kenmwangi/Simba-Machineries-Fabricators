@@ -26,7 +26,7 @@ function Header() {
           <nav className={style.nav}>
             <Link href="/">
               <a className={style.nav__logo}>
-                <Image src="/logo.png" alt="Logo" width={80} height={80} />
+                <Image src="/logo-1.png" alt="Logo" width={80} height={80} />
               </a>
             </Link>
 

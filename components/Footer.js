@@ -1,6 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { RiFacebookFill, RiInstagramFill, RiTwitterFill } from "react-icons/ri";
+import {
+  RiFacebookFill,
+  RiInstagramFill,
+  RiMailLine,
+  RiPhoneLine,
+  RiTwitterFill,
+} from "react-icons/ri";
 import style from "../styles/Footer.module.css";
 
 function Footer() {
@@ -18,31 +24,54 @@ function Footer() {
               {/* <br /> Visit our workshop for best prices and special
               discounts in all machineries */}
             </p>
-            <div className={style.socials}>
-              <a
-                href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
-                target="_blank"
-                rel="norefferer noreferrer"
-                className={style.footer__social}
-              >
-                <RiFacebookFill />
-              </a>
-              <a
-                href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
-                target="_blank"
-                rel="norefferer noreferrer"
-                className={style.footer__social}
-              >
-                <RiTwitterFill />
-              </a>
-              <a
-                href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
-                target="_blank"
-                rel="norefferer noreferrer"
-                className={style.footer__social}
-              >
-                <RiInstagramFill />
-              </a>
+            <div className={style.footer__contact}>
+              <div className={style.phone}>
+                <h3 className={style.footer__title}>Let&apos;s Talk!</h3>
+                <ul>
+                  <li>
+                    <span>
+                      <RiMailLine className={style.footer__social} />
+                    </span>
+                    kenyasimbamachinery@gmail.com
+                  </li>
+                  <li>
+                    <span>
+                      <RiPhoneLine className={style.footer__social} />
+                    </span>
+                    +254 711 165132
+                  </li>
+                </ul>
+              </div>
+              <div className={style.socials}>
+                <h3>Socials</h3>
+                <div>
+                  <a
+                    href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
+                    target="_blank"
+                    rel="norefferer noreferrer"
+                    className={style.footer__social}
+                  >
+                    <RiFacebookFill />
+                  </a>
+                  <a
+                    href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
+                    target="_blank"
+                    rel="norefferer noreferrer"
+                    className={style.footer__social}
+                  >
+                    <RiTwitterFill />
+                  </a>
+                  <Link
+                    href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
+                    target="_blank"
+                    rel="norefferer noreferrer"
+                  >
+                    <a className={style.footer__social}>
+                      <RiInstagramFill />
+                    </a>
+                  </Link>
+                </div>
+              </div>
             </div>
           </section>
           <section className={style.footer__data}>

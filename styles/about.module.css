@@ -1,0 +1,28 @@
+.about__us {
+  padding: 4.5rem 1rem 2rem;
+  margin-top: 4rem;
+}
+.about__us h1 {
+  text-align: center;
+  color: var(--blue-color);
+  margin-bottom: var(--mb-2-5);
+}
+.company__profile {
+  display: grid;
+  row-gap: 2rem;
+}
+.company__profile h2:last-child {
+  margin-bottom: 1rem;
+}
+#call__action {
+  margin-top: 1rem;
+}
+.about__us p {
+  line-height: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .about__us {
+    /* padding: 7rem 1rem 2rem; */
+  }
+}
