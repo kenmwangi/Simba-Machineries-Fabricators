@@ -6,13 +6,29 @@
     rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-radius: 10px;
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
+  transition: 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .product__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
-.actions {
+.actions > * {
   align-self: end;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+.info h4 {
+  font-size: var(--h2-font-size);
+  padding-bottom: 1rem;
+  color: var(--blue-color);
+  text-transform: uppercase;
 }

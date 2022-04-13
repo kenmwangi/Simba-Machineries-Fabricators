@@ -12,8 +12,8 @@ function ProductCard({ equipment }) {
           alt="Thumbnail"
           //   width={thumbnail.fields.file.details.image.width}
           //   height={thumbnail.fields.file.details.image.height}
-          width={300}
-          height={300}
+          width={500}
+          height={500}
           className={style.product__image}
         />
       </div>
@@ -24,7 +24,9 @@ function ProductCard({ equipment }) {
         </div>
 
         <div className={style.actions}>
-          <Link href={`/products/${slug}`}>View More Info &rarr;</Link>
+          <Link href={`/products/${slug}`} className={style.view__more}>
+            View More Info &rarr;
+          </Link>
         </div>
       </article>
     </section>
