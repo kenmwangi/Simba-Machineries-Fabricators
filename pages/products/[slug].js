@@ -40,7 +40,7 @@ function ProductDetail({ equipment }) {
       <div className={style.ProductDetails}>
         <div className={style.banner}>
           <Image
-            src={`https://${featuredImage.fields.file.url}`}
+            src={`https:${featuredImage.fields.file.url}`}
             // width={featuredImage.fields.file.details.image.width}
             // height={featuredImage.fields.file.details.image.height}
             width={450}

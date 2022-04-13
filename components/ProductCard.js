@@ -25,7 +25,7 @@ function ProductCard({ equipment }) {
 
         <div className={style.actions}>
           <Link href={`/products/${slug}`} className={style.view__more}>
-            View More Info &rarr;
+            <a>View More Info &rarr;</a>
           </Link>
         </div>
       </article>
