@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Layout from "../components/Layout";
 import style from "../styles/about.module.css";
@@ -59,14 +60,16 @@ function About() {
               Chuff Cutters, Hallers e.t.c
             </p>
 
-            <h2>View More Products Here </h2>
-            <button
-              type="submit"
-              className="call__action"
-              id={style.call__action}
-            >
-              View More Products &rarr;
-            </button>
+            {/* <h2>View More Products Here </h2> */}
+            <Link href="/products">
+              <button
+                type="submit"
+                className="call__action"
+                id={style.call__action}
+              >
+                View More Products &rarr;
+              </button>
+            </Link>
           </div>
         </section>
       </div>

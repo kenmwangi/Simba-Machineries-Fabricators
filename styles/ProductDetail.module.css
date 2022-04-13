@@ -1,0 +1,15 @@
+.ProductDetails {
+  margin: 10rem 0;
+  height: 80vh;
+  max-width: 70rem;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  display: grid;
+  place-items: center;
+  /* grid-template-columns: 1fr; */
+
+  background-color: var(--color-white);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

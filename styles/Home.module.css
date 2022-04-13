@@ -78,6 +78,7 @@
 }
 .about__container {
   display: grid;
+
   gap: 1.5rem;
   row-gap: 2.5rem;
 }
@@ -137,6 +138,7 @@
 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: 1fr; */
   grid-auto-columns: 1fr;
   gap: 2.5rem 4rem;
   grid-auto-flow: row;

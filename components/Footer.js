@@ -21,8 +21,13 @@ function Footer() {
             <p className={style.footer__description}>
               One Stop shop for Affordable <br />& Best Machineries and
               Fabrication Services.
-              {/* <br /> Visit our workshop for best prices and special
-              discounts in all machineries */}
+            </p>
+            <h3>Location</h3>
+            <p>
+              {/* Visit our workshop for best prices and <br />
+              special discounts in all machineries */}
+              P.O Box 156 Nakuru, Government Road <br />
+              Opp. Nawasco, Nakuru.
             </p>
             <div className={style.footer__contact}>
               <div className={style.phone}>
@@ -54,22 +59,22 @@ function Footer() {
                     <RiFacebookFill />
                   </a>
                   <a
-                    href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
+                    href="https://twitter.com/Corneliuskipn10"
                     target="_blank"
                     rel="norefferer noreferrer"
                     className={style.footer__social}
                   >
                     <RiTwitterFill />
                   </a>
-                  <Link
-                    href="https://web.facebook.com/Kenya-Simba-Machineries-Fabricators-111297580767700/"
+
+                  <a
+                    href="https://www.instagram.com/ronohcornelius/"
                     target="_blank"
                     rel="norefferer noreferrer"
+                    className={style.footer__social}
                   >
-                    <a className={style.footer__social}>
-                      <RiInstagramFill />
-                    </a>
-                  </Link>
+                    <RiInstagramFill />
+                  </a>
                 </div>
               </div>
             </div>
