@@ -5,10 +5,12 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ["res.cloudinary.com"],
+    domains: ["res.cloudinary.com", "images.ctfassets.net"],
   },
   nextConfig,
-  experimental: {
-    styledComponents: true,
-  },
 };
+
+// For styled components configuration in module.exports
+// experimental: {
+//   styledComponents: true,
+// },

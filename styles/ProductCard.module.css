@@ -1,0 +1,18 @@
+.card {
+  background-color: var(--color-white);
+  padding: 1rem;
+  /* border: 1px solid #666; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 10px;
+  display: grid;
+  gap: 1rem;
+}
+.product__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.actions {
+  align-self: end;
+}

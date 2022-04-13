@@ -1,6 +1,13 @@
+.container {
+  margin: 10rem 0;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: var(--mb-2);
+  color: var(--blue-color);
+}
 .products {
   /* padding: 3rem 1rem 2rem; */
-  margin: 10rem 0;
   /* height: 80vh; */
   /* max-width: 70rem; */
   /* display: flex;
@@ -13,4 +20,14 @@
 
   background-color: var(--color-white);
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  /* grid-auto-rows: 1fr 2fr; */
+  gap: 2rem;
+}
+.more__products,
+.more__products p {
+  margin-top: var(--mb-2);
+  font-size: var(--h2-font-size);
 }
