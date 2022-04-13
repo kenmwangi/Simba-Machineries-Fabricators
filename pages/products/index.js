@@ -32,7 +32,7 @@ function Products({ equipments }) {
           ))}
         </section>
         <div className={style.more__products}>
-          For More Information
+          For More Products
           <p>
             <Link href="/contact" passHref>
               <button className="call__action">
