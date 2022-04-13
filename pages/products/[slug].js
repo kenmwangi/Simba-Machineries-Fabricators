@@ -19,7 +19,7 @@ export const getStaticPaths = async () => {
   });
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 };
 
@@ -33,7 +33,7 @@ export async function getStaticProps({ params }) {
   };
 }
 function ProductDetail({ equipment }) {
-  const { featuredImage, title, categories, description } = equipment.fields;
+  const { featuredImage, title, description } = equipment.fields;
   console.log(equipment);
   return (
     <section className={style.container}>
@@ -58,7 +58,7 @@ function ProductDetail({ equipment }) {
         </div> */}
         <div className={style.description}>
           <h3>Description</h3>
-          <p>{documentToReactComponents(description)}</p>
+          <div>{documentToReactComponents(description)}</div>
         </div>
       </div>
     </section>
